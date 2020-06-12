@@ -14,7 +14,7 @@ node {
    
    stage ('archival') {
      // archiving artifacts
-	 archive 'target/*.jar'
+	 archive 'gameoflife-web/target/*.war'
    }
 
 }
