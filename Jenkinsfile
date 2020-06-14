@@ -19,3 +19,5 @@ node {
    stage('test results'){
    junit 'gameoflife-web/target/surefire-reports/*.xml'
 }
+}
+
